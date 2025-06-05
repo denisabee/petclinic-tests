@@ -6,7 +6,7 @@ This assignment is testing the PetClinic application.
 
 To get the code from GitHub, run the following:
 
-git clone ...
+`git clone https://github.com/denisabee/petclinic-tests.git`
 
 
 ## The project directory structure
