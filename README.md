@@ -25,7 +25,7 @@ src
 ```
 
 ## Test scenarios
-The project comes with four scenarios - 2 for API tests and 2 for frontend tests:
+The project comes with four scenarios - 2 for API tests and 2 for Web tests:
 ```Gherkin
   Scenario: Check List of Vets contains Vet
     Given the status of the API is 200
@@ -49,7 +49,7 @@ This API test scenario tests that a newly added pet "Aladin" is present in the r
     When I enter "George" in search filter box
     Then I should see a list with 3 matching results
 ```
-This frontend test scenario checks that by searching with "George" in the search filter, you get a list with 3 matching results. 
+This Web test scenario checks that by searching with "George" in the search filter, you get a list with 3 matching results. 
 
 
 ```Gherkin
@@ -58,7 +58,7 @@ This frontend test scenario checks that by searching with "George" in the search
     When I fill in data for an owner named "Anton" and Submit
     Then I should see "Anton" in the Owners page
 ```
-This frontend test scenario verifies that registering a new owner named "Anton" results in seeing that owner in the list of owners.
+This Web test scenario verifies that registering a new owner named "Anton" results in seeing that owner in the list of owners.
 
 
 ## Test report
