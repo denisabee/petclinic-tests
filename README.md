@@ -8,6 +8,9 @@ To get the code from GitHub, run the following:
 
 `git clone https://github.com/denisabee/petclinic-tests.git`
 
+Note: Before running the tests, PetClinic application needs to be started as described here:
+https://github.com/BackbaseRecruitment/rnd-qa-assignment-denisabee/tree/main
+
 
 ## The project directory structure
 The project can be built with Maven and has the following directory structure:
@@ -60,8 +63,7 @@ This frontend test scenario verifies that registering a new owner named "Anton" 
 
 ## Test report
 
-You can generate full Serenity reports by running `mvn clean verify` command.
-
+You can generate full Serenity reports by running `mvn clean verify` command. The link to the report can be found in the output of this command.
 
 ![](src/docs/TestResults_success.PNG)
 
